@@ -1,0 +1,30 @@
+/* HEADER */
+#header img{
+    width: 100px;
+}
+
+.navbar-nav a:hover {
+    color: #f7991c;
+  }
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+.navbar #navbarNavDropdown{
+    margin-right: 40px;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 26px 22px;
+    font-family: 'Conv_UBUNTU-M_2', sans-serif;
+    color: #7d97a5;
+    font-family: 'Conv_UBUNTU-L_2', sans-serif;
+    position: relative;
+    font-weight: bold;
+  }
+
+/* HEADER END */
