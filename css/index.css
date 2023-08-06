@@ -28,3 +28,35 @@
   }
 
 /* HEADER END */
+
+/* FOOTER START*/
+.footer{
+    background: #888e8f;
+  }
+  .col a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 26px 22px;
+    font-family: 'Conv_UBUNTU-M_2', sans-serif;
+    color: #ffffff;
+    font-family: 'Conv_UBUNTU-L_2', sans-serif;
+    position: relative;
+    font-weight: bold;
+    
+  }
+  .col h3{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 26px 22px;
+    font-family: 'Conv_UBUNTU-M_2', sans-serif;
+    color: #ffffff;
+    font-family: 'Conv_UBUNTU-L_2', sans-serif;
+    position: relative;
+    font-weight: bold;
+  }
+  .col a:hover{
+    color: #f7991c;
+  }
+
+  /* FOOTER END */
