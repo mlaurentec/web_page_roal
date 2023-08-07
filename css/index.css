@@ -112,4 +112,20 @@
 .text_orange{
     color: #000000;
 }
-    
+
+#go_to_up{
+    width: 60px;
+    height: 60px;
+    border-radius:50px;
+    left: 10px;
+    background: #f7991c;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    z-index:100;
+}
