@@ -180,5 +180,13 @@
   border-color: #f4ab00;
 }
 
+#footer {
+	background: rgb(83,96,87);
+  background: linear-gradient(90deg, rgba(83,96,87,1) 0%, rgba(83,96,87,1) 25%, rgba(83,96,87,1) 49%, rgba(83,96,87,1) 70%, rgba(83,96,87,1) 87%, rgba(83,96,87,1) 100%);
+	color: white;
+}
 
-
+#footer a {
+	color: white;
+  text-decoration: none;
+}
