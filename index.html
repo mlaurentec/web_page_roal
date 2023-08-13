@@ -30,7 +30,7 @@
                 <a class="nav-link" href="#servicios">SERVICIOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTÁCTENOS</a>
+                <a class="nav-link" href="#contacto">CONTÁCTENOS</a>
               </li>
             </ul>
           </div>
@@ -52,12 +52,32 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="3000">
                 <img src="  assets/slider_1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Trabajos verticales</h5>
+                  <p></p>
+                </div>
               </div>
               <div class="carousel-item" data-bs-interval="3000">
-                <img src="assets/brandeo_movil.jpg" class="d-block w-100" alt="...">
+                <img src="assets/galeria/e_publicitarias_8.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Estructuras publicitarias</h5>
+                  <p></p>
+                </div>
               </div>
               <div class="carousel-item" data-bs-interval="3000">
-                <img src="assets/letrero_luminoso.jpg" class="d-block w-100" alt="...">
+                <img src="assets/galeria/p_especiales_1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Producciones especiales</h5>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="assets/galeria/c_modulos_led_1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cintas y modulos led</h5>
+                  <p></p>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -103,38 +123,47 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
           <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-            <label class="btn btn-outline-primary" for="btnradio1">Letreros</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btn_trabajos_verticales" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btn_trabajos_verticales">Trabajos verticales</label>
           
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio2">Modulos</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btn_estructuras_publicitarias" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btn_estructuras_publicitarias">Estructuras publicitarias</label>
           
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio3">Paneles</label>
+            <input type="radio" class="btn-check" name="btnradio" id="btn_producciones_especiales" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btn_producciones_especiales">Producciones especiales</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btn_c_modulos_led" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btn_c_modulos_led">Cintas y modulos led</label>
           </div>
         </div>
       </div>
 
       
 
-      <div id="galeria-letreros" style="display: block;">
+      <div id="galeria_trabajos_verticales" style="display: block;">
         
         <div class="row m-5">
           <div class="col-lg-4 mb-4">
             <a href="" data-bs-toggle="modal" data-bs-target="#modalImage1">
-              <img class="w-100 mb-4 rounded" src="assets/galeria/galeria1.jpg" alt="">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/trabajos_verticales_3.jpeg" alt="">
             </a>
   
           </div>
           <div class="col-lg-4 mb-4">
             <a href="" data-bs-toggle="modal" data-bs-target="#modalImage2">
-              <img class="w-100 mb-4 rounded" src="assets/galeria/galeria2.jpg" alt="">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/trabajos_verticales_1.jpeg" alt="">
             </a>
   
           </div>
           <div class="col-lg-4 mb-4">
             <a href="" data-bs-toggle="modal" data-bs-target="#modalImage3">
-              <img class="w-100 mb-4 rounded" src="assets/galeria/galeria3.jpg" alt="">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/trabajos_verticales_2.jpeg" alt="">
+            </a>
+  
+          </div>
+          <div class="col-lg-4 mb-4">
+            <a href="" data-bs-toggle="modal" data-bs-target="#modalImage3">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/trabajos_verticales_4.jpeg" alt="">
             </a>
   
           </div>
@@ -142,50 +171,119 @@
         </div>
       </div>
 
-      <div id="galeria-modulos" style="display: none;">
+      <div id="galeria_estructuras_publicitarias" style="display: none;">
         <div class="row m-5">
         <div class="col-lg-4 mb-4">
           <a href="">
-            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria4.jpg" alt="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_12.jpeg" alt="">
           </a>
         </div>
 
         <div class="col-lg-4 mb-4">
           <a href="">
-            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria5.jpg" alt="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_3.jpeg" alt="">
           </a>
         </div>
 
         <div class="col-lg-4 mb-4">
           <a href="">
-            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria6.jpg" alt="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_2.jpeg" alt="">
           </a>
         </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_4.jpeg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_5.jpeg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_6.jpeg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_7.jpeg" alt="">
+          </a>
+        </div>
+
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_9.jpeg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_8.jpeg" alt="">
+          </a>
+        </div>
+
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_11.jpeg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/e_publicitarias_10.jpeg" alt="">
+          </a>
+        </div>
+
 
       </div>
     </div>
 
-      <div id="galeria-paneles" style="display: none;">
+      <div id="galeria_producciones_especiales" style="display: none;">
         <div class="row m-5">
         <div class="col-lg-4 mb-4">
           <a href="">
-            <img class="w-100 mb-4 rounded" src="assets/brandeo_movil.jpg" alt="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/p_especiales_1.jpeg" alt="">
           </a>
         </div>
 
         <div class="col-lg-4 mb-4">
           <a href="">
-            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria7.jpg" alt="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/p_especiales_2.jpeg" alt="">
           </a>
         </div>
 
         <div class="col-lg-4 mb-4">
           <a href="">
-            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria8.jpg" alt="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/p_especiales_4.jpeg" alt="">
           </a>
         </div>
       </div>
       </div>
+
+      <div id="galeria_c_modulos_led" style="display: none;">
+        <div class="row m-5">
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/c_modulos_led_1.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/c_modulos_led_2.jpg" alt="">
+          </a>
+        </div>
+
+      </div>
+      </div>
+
 
       <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
         <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -219,32 +317,46 @@
     </section>
 
     <script>
-      var myButton = document.getElementById("btnradio1");
-      var elementToHide = document.getElementById("galeria-letreros");
+      var myButton = document.getElementById("btn_trabajos_verticales");
+      var elementToHide = document.getElementById("galeria_trabajos_verticales");
       
       
       myButton.addEventListener("click", function() {
           elementToHide.style.display = "block";
           elementToHide2.style.display = "none";
           elementToHide3.style.display = "none";
+          elementToHide4.style.display = "none";
       });
 
-      var myButton = document.getElementById("btnradio2");
-      var elementToHide2 = document.getElementById("galeria-paneles");
+      var myButton = document.getElementById("btn_estructuras_publicitarias");
+      var elementToHide2 = document.getElementById("galeria_estructuras_publicitarias");
       
       
       myButton.addEventListener("click", function() {
           elementToHide2.style.display = "block";
           elementToHide.style.display = "none";
           elementToHide3.style.display = "none";
+          elementToHide4.style.display = "none";
       });
 
-      var myButton = document.getElementById("btnradio3");
-      var elementToHide3 = document.getElementById("galeria-modulos");
+      var myButton = document.getElementById("btn_producciones_especiales");
+      var elementToHide3 = document.getElementById("galeria_producciones_especiales");
       
       myButton.addEventListener("click", function() {
           elementToHide3.style.display = "block";
           elementToHide2.style.display = "none";
+          elementToHide.style.display = "none";
+          elementToHide4.style.display = "none";
+      });
+
+
+      var myButton = document.getElementById("btn_c_modulos_led");
+      var elementToHide4 = document.getElementById("galeria_c_modulos_led");
+      
+      myButton.addEventListener("click", function() {
+          elementToHide4.style.display = "block";
+          elementToHide2.style.display = "none";
+          elementToHide3.style.display = "none";
           elementToHide.style.display = "none";
       });
 
@@ -339,17 +451,17 @@
     
     <!-- SERVICIOS SECTION END -->
     <!-- FOOTER START -->
-    <footer class="footer pt-3 pb-3 mt-0">
+    <footer class="footer pt-3 pb-3 mt-0" id="contacto">
         <div class="container">
           <div class="row align-items-center text-center">
             <div class="col col-12 col-lg">
               <i class="fa-solid fa-phone" style="color: #fcfcfc;"></i>
-              <a href="#">Cel: 934200566</a>
+              <a href="#">Cel: 986001340</a>
 
             </div>
             <div class="col col-12 col-lg">
               <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>  
-              <a href="#">Email: arnol.suazo@roalestructuras.com</a>
+              <a href="#">Email: arnsuazo@roalestructuras.com</a>
             </div>
             <div class="col col-12 col-lg">
                 <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
