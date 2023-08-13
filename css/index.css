@@ -129,3 +129,56 @@
     cursor: pointer;
     z-index:100;
 }
+/* seccion galeria */
+.page-link a {
+  display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 26px 22px;
+    font-family: 'Conv_UBUNTU-M_2', sans-serif;
+    color: #7d97a5;
+    font-family: 'Conv_UBUNTU-L_2', sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+
+/* .page-item a{
+  color: #7d97a5;
+}
+.page-item.active .page-link{
+  background-color: #f7991c;
+  border-color: #f7991c;
+  color: #ffffff;
+} */
+
+/* .page-item.active .page-link:active{
+  background-color: #f7991c;
+  border-color: #f7991c;
+  color: #ffffff;
+} */
+
+
+.page-item a:hover{
+  color: #ffffff;
+  background-color: #f7991c;
+}
+
+.page-item:active .page-link {
+  color: #ffffff;
+  background-color: #f7991c;
+}
+
+/* botones */
+
+
+
+
+/* Estilos para botones de tipo "primary" */
+.btn-outline-primary{
+  color: #ffffff;
+  background-color:#f4ab00;;
+  border-color: #f4ab00;
+}
+
+
+

@@ -24,7 +24,7 @@
                     <a class="nav-link" href="#somos">SOMOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">GALERÍA</a>
+                <a class="nav-link" href="#galeria">GALERÍA</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#servicios">SERVICIOS</a>
@@ -89,8 +89,185 @@
         </div>
       </section>
     <!-- SOMOS SECTION END-->
+    <!-- Galeria -->
+    <section id="galeria" class="container-fluid mt-4">
+      
+
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Conoce nuestro trabajo</small>
+          <h2>Galeria</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Letreros</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Modulos</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Paneles</label>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div id="galeria-letreros" style="display: block;">
+        
+        <div class="row m-5">
+          <div class="col-lg-4 mb-4">
+            <a href="" data-bs-toggle="modal" data-bs-target="#modalImage1">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/galeria1.jpg" alt="">
+            </a>
+  
+          </div>
+          <div class="col-lg-4 mb-4">
+            <a href="" data-bs-toggle="modal" data-bs-target="#modalImage2">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/galeria2.jpg" alt="">
+            </a>
+  
+          </div>
+          <div class="col-lg-4 mb-4">
+            <a href="" data-bs-toggle="modal" data-bs-target="#modalImage3">
+              <img class="w-100 mb-4 rounded" src="assets/galeria/galeria3.jpg" alt="">
+            </a>
+  
+          </div>
+      
+        </div>
+      </div>
+
+      <div id="galeria-modulos" style="display: none;">
+        <div class="row m-5">
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria4.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria5.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria6.jpg" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+      <div id="galeria-paneles" style="display: none;">
+        <div class="row m-5">
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/brandeo_movil.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria7.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <a href="">
+            <img class="w-100 mb-4 rounded" src="assets/galeria/galeria8.jpg" alt="">
+          </a>
+        </div>
+      </div>
+      </div>
+
+      <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <img src="assets/galeria/galeria1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <img src="assets/galeria/galeria2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <img src="assets/galeria/galeria3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      </div>
+        
+        
+
+        
+    </section>
+
+    <script>
+      var myButton = document.getElementById("btnradio1");
+      var elementToHide = document.getElementById("galeria-letreros");
+      
+      
+      myButton.addEventListener("click", function() {
+          elementToHide.style.display = "block";
+          elementToHide2.style.display = "none";
+          elementToHide3.style.display = "none";
+      });
+
+      var myButton = document.getElementById("btnradio2");
+      var elementToHide2 = document.getElementById("galeria-paneles");
+      
+      
+      myButton.addEventListener("click", function() {
+          elementToHide2.style.display = "block";
+          elementToHide.style.display = "none";
+          elementToHide3.style.display = "none";
+      });
+
+      var myButton = document.getElementById("btnradio3");
+      var elementToHide3 = document.getElementById("galeria-modulos");
+      
+      myButton.addEventListener("click", function() {
+          elementToHide3.style.display = "block";
+          elementToHide2.style.display = "none";
+          elementToHide.style.display = "none";
+      });
+
+
+  </script>
+    
+    
+      <!-- <section>
+        <div class="row m-5">
+          <div class="col-lg-4 mb-4">
+
+          </div>
+          <div class="col-lg-4 mb-4">
+
+          </div>
+          <div class="col-lg-4 mb-4">
+
+          </div>
+        </div>
+      </section> -->
+    <!-- Galeria END -->
     <!-- SERVICIOS SECTION START -->
-    <section id="servicios" class="mt-4">
+    <section id="servicios" class="mt-2">
       <div class="container">
         <div class="row">
           <div class="col text-center text-uppercase">
@@ -106,7 +283,7 @@
               <div class="card-body">
                 <h5 class="card-title">Letreros</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                
               </div>
             </div>
           </div>
@@ -117,7 +294,7 @@
               <div class="card-body">
                 <h5 class="card-title">Tótems</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                
               </div>
             </div>
           </div>
@@ -129,7 +306,7 @@
             <div class="card-body">
               <h5 class="card-title">Modulos y Stands</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              
             </div>
           </div>
         </div>
@@ -140,7 +317,7 @@
             <div class="card-body">
               <h5 class="card-title">Impresiones y paneles</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              
             </div>
           </div>
         </div>
@@ -151,7 +328,7 @@
             <div class="card-body">
               <h5 class="card-title">Producciones Especiales</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              
             </div>
           </div>
         </div>
@@ -159,6 +336,7 @@
 
       </div>
     </section>
+    
     <!-- SERVICIOS SECTION END -->
     <!-- FOOTER START -->
     <footer class="footer pt-3 pb-3 mt-0">
