@@ -114,18 +114,19 @@
 }
 
 #go_to_up{
-    width: 60px;
-    height: 60px;
-    border-radius:50px;
-    left: 10px;
-    background: #f7991c;
-    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
+    border: 1px solid #7d97a5;
+    left: 20px;
+    background: transparent;
+    color: #f7991c;
     display: none;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     position: fixed;
-    bottom: 20px;
+    bottom: 5px;
     cursor: pointer;
     z-index:100;
 }
